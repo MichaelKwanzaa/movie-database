@@ -1,0 +1,37 @@
+.navbar{
+    flex: 1;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 1000;
+}
+
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbarLogo{
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.navbarLinks ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbarLink{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.navbarLink:hover{
+    color: purple;
+}

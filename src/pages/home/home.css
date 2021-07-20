@@ -1,0 +1,9 @@
+.home{
+    flex: 1;
+    position: relative;
+    height: calc(100vh - 80px);
+}
+
+.homeContainer{
+    
+}

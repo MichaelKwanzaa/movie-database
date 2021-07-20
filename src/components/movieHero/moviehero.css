@@ -1,0 +1,14 @@
+.movieHero{
+    flex: 1;
+    background-color: aliceblue;
+}
+
+.movieHeroContainer{
+    padding: 150px 120px;
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

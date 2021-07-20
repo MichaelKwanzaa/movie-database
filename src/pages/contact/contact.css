@@ -1,0 +1,66 @@
+.contactMe{
+    flex: 1;
+    height: calc(100vh - 80px);
+}
+
+.contactMeContainer{
+    padding: 50px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    margin-right: 100px;
+}
+
+.leftImage{
+    width: 470px;
+    height: 470px;
+    object-fit: cover;
+    border: 0.5px solid #999;
+    border-radius: 50%;
+
+}
+
+.right{
+    padding: 20px 100px;
+}
+
+.right > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.right > form > input{
+    width: 350px;
+    padding: 8px 12px;
+    margin: 10px 0;
+    background-color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.right > form > input:focus{
+    outline: none;
+}
+
+.right > form > textarea{
+    padding: 8px 12px;
+    margin: 10px 0;
+    background: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.right > form > textarea:focus{
+    outline: none;
+}
+
+.right > form > button {
+    width: inherit;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+}

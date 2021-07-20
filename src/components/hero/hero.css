@@ -1,0 +1,43 @@
+.hero{
+    height: calc(97vh - 80px);
+    flex: 1;
+}
+
+.heroContainer{
+    display: flex;
+    align-items: center;
+    padding: 150px 120px;
+}
+
+.heroTitle{
+    flex: 1;
+}
+
+.heroImageLeft{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTopText{
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.heroTopText.michael{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.heroTopText.api{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.heroImage{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
+    object-fit: contain;
+}
